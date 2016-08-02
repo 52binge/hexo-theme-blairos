@@ -1,6 +1,6 @@
 # Blairos
 
-Jacman is a fresh looking and responsive theme for [Hexo](http://hexo.io) with more features and some build-in service and some libin's style based on [Minos](https://github.com/ppoffice/).  
+Blairos is a fresh looking and responsive theme for [Hexo](http://hexo.io) with more features and some build-in service and some libin's style based on [Minos](https://github.com/ppoffice/).  
 
 **Blairos support Hexo 3.0 now !**
 
