@@ -6,7 +6,7 @@ Blairos is a fresh looking and responsive theme for [Hexo](http://hexo.io) with 
 
 [Demo](http://52binge.github.io)
 
-[如何使用 Blairos 主题](http://github.com/blair1)
+[如何使用 Blairos 主题](/)
 
 ## Installation
 ### Install
