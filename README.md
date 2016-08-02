@@ -43,6 +43,7 @@ menu:
   Archives: archives
   Categories: categories
   Tags: tags
+  Tweet: tweet
   About: about
 
 # Content
