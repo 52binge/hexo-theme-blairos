@@ -1,0 +1,479 @@
+.article
+  //margin: 20px 0
+  margin: 5px 0  // by blair 160725
+  //margin: block-margin 0 by blair for bak
+  border-bottom: 0.3px solid color-border
+
+//by blair add
+.article-myself
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f007"
+  span
+    margin-left: 8px
+.article-myEmail
+  margin-left: 8px
+  font-size: 1em
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f0e0"
+  span
+.article-myGithub
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f09b"
+  span
+.article-myInstagram
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f16d"
+  span
+.article-myFacebook
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f082"
+  span
+.article-myTwitter
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f099"
+  span
+.article-mySegmentfault
+  margin-left: 8px
+  color: #333
+  &:before
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08a"
+  span
+
+// by blair add me
+//.tweet
+//  font-family:"lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+
+.article-inner
+  margin-bottom: 15px
+  //font-family: Consolas, monaco; // by blair add 160728
+  font-size: 14px // by blair add 160728
+  overflow: hidden
+
+.article-meta
+  clearfix()
+  a
+    @extend $link
+    color: color-grey
+
+.article-date-index // by blair add at 20160724
+  color: #939393
+  font-size: 12px
+
+.article-detail-date-index // by blair add at 20160724
+  color: #939393
+  font-size: 16px
+
+.article-date
+  float: left
+  //float: right
+/*
+// add article-author by blair 160724
+.article-time
+  padding-top 0.5em
+  font-size 0.8em
+  text-align center
+  margin-bottom -2.7em
+//  @media mini
+    float right
+    margin-right 1em
+    padding-top 0.1em
+    font-size 0.9em
+  &:before
+    font-family font-icon-family
+    font-size font-size+30
+    content "\f017"
+    font-smoothing()
+
+// add article-author by blair 160724
+.article-author
+  padding 0.3em 4% 0.3em 0
+  text-align right
+  border-bottom 1px solid lighten(color-gray,30%)
+ // @media mini
+     float right
+     border-bottom none
+*/
+.article-category-index
+  float: left
+  margin-left: 8px
+  //color: color-grey
+  color: #939393
+  &:before
+    content: "\2022"
+  span
+    margin-left: 8px
+.article-category
+  float: left
+  margin-left: 8px
+  //color: color-grey
+  color: #333
+  &:before
+    // add by blair 160724
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // add by blair 160724
+    content: "\f07b"
+  span
+    margin-left: 8px
+/*  .article-tag by blair add by 160724 */
+.article-tag
+  float: left
+  margin-left: 8px
+  //color: color-grey
+  color: #333
+  &:before
+    // add by blair 160724
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // add by blair 160724
+    content: "\f02c"
+  span
+    margin-left: 8px
+
+.article-category-link
+  margin-left: 8px
+  font-size: 1.2em  // by blair add 160724
+  //color: #2ca6cb
+  color: #2561c2
+
+/* by blair add at 160724 */
+.article-tag-link
+  margin-left: 8px
+  font-size: 1.2em
+  color: #2561c2
+  //color: #2ca6cb
+
+.article-comment-link-wrap
+  float: left
+  margin-left: 8px
+  color: color-grey
+  &:before
+    content: "\2022"
+
+.article-comment-link
+  margin-left: 8px
+
+.article-header
+  margin: 10px 0 5px; // by blair add 160728
+  //margin-bottom: 20px // by blair add 160728
+  font-weight: 599
+
+.article-title-index
+  font-family: Consolas; 
+  font-size: 1.12em
+  //font-size: 14px // by blair add 160728 
+  font-weight: 600 // by blair 160728
+  //width: 98%;
+  //line-height: 150%;
+  color: #2561c2;
+  text-decoration: none;
+
+.desc-index
+  font-weight: 599
+  //width: 98%;
+  //line-height: 150%;
+  font-size: 1.1em
+  color: #333;
+
+.page-title // by blair add 160729
+  height: 10px;
+  border-bottom: 2px solid #eee;
+  width: 98%;
+
+.article-title
+  //text-align: center;
+  font-size: 1.7em
+  font-weight: 599
+  //add by blair 0724
+  //border-bottom: 2px LightGrey solid;
+  width: 98%;
+  //line-height: 150%;
+  color: #444;
+  //color: #666666
+  //add by blair 0724
+a.article-title
+  @extend $link
+
+.tweetimg // by blair add at 160730
+  line-height: 0.4;
+  max-width: 30%;
+  display: block;
+
+.article-entry
+  @extend $base-style
+  clearfix()
+  color: color-default
+  padding: 0
+  p
+    font-size: 16px; // by blair add 160729
+    line-height: 1.6em; // by blair
+    margin: 1.4em 8;  // by blair
+  table
+    font-size: 16px; // by blair add 160729
+    line-height: line-height
+    margin: line-height 0
+  h1, h2, h3, h4, h5, h6
+    font-weight: 600
+    line-height: 1.4em
+    margin: line-height-title 0
+    // add by blair 0724
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 150%;
+  myh11
+    font-weight: 600
+    line-height: 1em
+    margin: line-height-title 0
+    // add by blair 0724
+  a
+    @extend $link-highlight
+  ul, ol, dl
+    font-size: 1.1em; // by blair add 160730
+    margin-top: line-height
+    margin-bottom: line-height
+  img, video
+    max-width: 100%
+    height: auto
+    display: block
+    margin: auto
+  iframe
+    border: none
+  table
+    width: 100%
+    border-collapse: collapse
+    border-spacing: 0
+  th
+    font-weight: 600
+    border-bottom: 3px solid color-border
+    padding-bottom: 0.5em
+  td
+    border-bottom: 1px solid color-border
+    padding: 10px 0
+  blockquote
+    font-family: font-default
+    margin: 0.65em 0 0.65em 1%;
+    line-height: 1.5
+    padding-left: 1%;
+    border-left: 2px solid #009a61;
+    background: #f6f6f6;
+    //color: #555;
+    //color: #808080;
+    //color: #777777;
+    color: #555;
+    font-size: 1em;
+    footer
+      font-size: font-size
+      margin: line-height 0
+      font-family: font-sans
+      cite
+        &:before
+          content: "—"
+          padding: 0 0.5em
+  .pullquote
+    text-align: left
+    width: 45%
+    margin: 0
+    &.left
+      margin-left: 0.5em
+      margin-right: 1em
+    &.right
+      margin-right: 0.5em
+      margin-left: 1em
+  .caption
+    color: color-grey
+    display: block
+    font-size: 0.9em
+    margin-top: 0.5em
+    position: relative
+    text-align: center
+  // http://webdesignerwall.com/tutorials/css-elastic-videos
+  .video-container
+    position: relative
+    padding-top: (9 / 16 * 100)% // 16:9 ratio
+    height: 0
+    overflow: hidden
+    iframe, object, embed
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      margin-top: 0
+
+.article-more-link a
+  @extend $link
+  color: color-grey
+  border-bottom-color: color-grey
+
+.article-footer
+  clearfix()
+  font-size: 0.85em
+  padding: line-height 0
+  line-height: line-height
+  margin: 0
+  float: right
+  a
+    color: color-grey
+    //color: #2561c2 // by blair 160724
+    //color: #2ca6cb
+    //color: -webkit-link
+    text-decoration: none
+    &:hover
+      color: color-default
+
+// by blair 160724
+.well
+  font-size: 0.97em;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+
+.article-tag-list-item
+  float: left
+  margin-right: 10px
+
+.article-tag-list-link
+  &:before
+    /*content: "#"*/
+    //margin: 0.65em 0 0.65em 1%;
+    //line-height: 1.5;
+    //padding-left: 1%;
+    font-family: "FontAwesome";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f02c";
+
+#article-nav
+  clearfix()
+  position: relative
+  margin: 20px 0
+
+.article-nav-link-wrap
+  text-decoration: none
+  text-shadow: 0 1px #fff
+  color: color-grey
+  box-sizing: border-box
+  text-align: center
+  display: block
+  &:hover
+    color: color-default
+  @media mq-normal
+    width: 50%
+    margin-top: 0
+    //margin-top: block-margin // by blair add // at 160725
+
+#article-nav-newer
+  float: left
+  text-align: left
+
+#article-nav-older
+  float: right
+  text-align: right
+
+.article-nav-caption
+  text-transform: uppercase
+  letter-spacing: 2px
+  color: color-border
+  line-height: 1em
+  font-weight: 600
+  #article-nav-newer &
+    margin-right: -2px
+
+.article-nav-title
+  font-size: 0.85em
+  line-height: line-height
+  margin-top: 0.5em
+
+.article-gallery
+  background: #000
+  position: relative
+
+.article-gallery-photos
+  position: relative
+  overflow: hidden
+
+.article-gallery-img
+  display: none
+  max-width: 100%
+  &:first-child
+    display: block
+  &.loaded
+    position: absolute
+    display: block
+  img
+    display: block
+    max-width: 100%
+    margin: 0 auto
+
+.article-toc
+  display: none
+  position: fixed
+  left: 50%
+  top: 110px
+  //font-size: 0.9em
+  font-size: 1.0em // by blair add 20160728
+  width: 260px
+  margin-left: 400px
+  //padding-left: 20px
+  padding-left: 70px // by blair add 20160728
+  overflow-y: auto
+  line-height: line-height
+  max-height: 32 * 0.9 * line-height
+  h3
+    font-weight: bold
+    margin-left: 20px
+  .toc-item
+    list-style: none
+    margin-left: 20px
+    a
+      //color: black
+      //color: #666 // by blair add 160728
+      // by blair 160729
+      color: #008000;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 1.5;
+      // by blair 160729
+      text-decoration: none
+  @media mq-large
+    display: block

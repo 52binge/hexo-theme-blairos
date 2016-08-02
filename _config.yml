@@ -1,0 +1,19 @@
+# Header
+logo_text: # Add text logo instead of logo image
+menu:
+  Home: /
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  Tweet: tweet
+  About: about
+
+# Content
+excerpt_link: Read More
+toc: true
+fancybox: true
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+
