@@ -1,6 +1,6 @@
 # Blairos
 
-Blairos is a fresh looking and responsive theme for [Hexo](http://hexo.io) with more features and some build-in service and some libin's style based on [Minos](https://github.com/ppoffice/).  
+Blairos is a fresh looking and responsive theme for [Hexo](http://hexo.io) with more features and some build-in service and some libin's style based on Minos.  
 
 **Blairos support Hexo 3.0 now !**
 
@@ -62,9 +62,6 @@ favicon: /favicon.png
 - **google_analytics** - Google Analytics ID.
 - **favicon** - Favicon path.
 
-Don't forget to rename `_config.yml.example` to `_config.yml` to enable theme config!
-
-
 ## Features
 
 ### Custom Categories & Tags Pages
@@ -108,7 +105,7 @@ Thanks to [Highlight.js](https://highlightjs.org/).
 - [Blairos Theme](http://52binge.github.io) - The demo site of Blairos Theme
 - [Blair Chan's Blog](http://blairos.org) - The author's blog of Blairos
 
-If you are using Jacman,you can add your site [here](https://github.com/52binge/blairos/wiki/Sites) ! I'll push the available sites here.
+If you are using Blairos,you can add your site [here](https://github.com/52binge/blairos/wiki/Sites) ! I'll push the available sites here.
 
 ##License
 [MIT](/LICENSE)
