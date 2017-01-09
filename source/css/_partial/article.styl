@@ -305,11 +305,12 @@ a.article-title
     padding: 10px 0
   blockquote
     font-family: font-default
-    margin: 0.65em 0 0.65em 0.3%; // 1% -> 0.3% by blair 160805
+    margin: 0.65em 0 0.65em 0.3%; // 1% -> 0.3% by blair 20160805
     line-height: 1.5
     padding-left: 1%;
     border-left: 2px solid #009a61;
-    background: #f6f6f6;
+    background: #F6F6F6; // add by blair 20170105
+    //background: #f6f6f6; 
     //color: #555;
     //color: #808080;
     //color: #777777;
@@ -467,20 +468,27 @@ a.article-title
 .article-toc
   display: none
   position: fixed
-  left: 50%
+  
+  left: 50% // yuan
   top: 110px
-  //font-size: 0.9em
-  font-size: 1.0em // by blair add 20160728
+  font-size: 1.0em
   width: 260px
   margin-left: 400px
-  //padding-left: 20px
-  padding-left: 70px // by blair add 20160728
+  padding-left: 20px
+
+  //left: 46.5% // by blair add 20170109
+  //top: 110px // by blair add 20170109
+  //font-size: 0.8em // by blair add
+  //width: 260px // by blair add
+  //margin-left: 344px // by blair add
+  //padding-left: 120px // by blair add 20170109
   overflow-y: auto
   line-height: line-height
   max-height: 32 * 0.9 * line-height
   h3
     font-weight: bold
     margin-left: 20px
+    font-size: 15px // by blair add 20170109
   .toc-item
     list-style: none
     margin-left: 20px
