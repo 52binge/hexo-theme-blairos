@@ -4,7 +4,8 @@ menu:
   Home: /
   Archives: archives
   Categories: categories
-  Tags: tags
+  NLP: ml
+  Tweet: tweet
   About: about
 
 # Content
