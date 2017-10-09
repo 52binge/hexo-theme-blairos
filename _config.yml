@@ -13,6 +13,9 @@ excerpt_link: Read More
 toc: true
 fancybox: true
 
+#comments
+disqus_shortname: blairos-sn
+
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
