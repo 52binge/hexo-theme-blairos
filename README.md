@@ -27,7 +27,7 @@ cd themes/blairos
 git pull origin master
 ```
 
-**please backup your `_config.yml` file before update.** 
+**please backup your `_config.yml` and `layout/_partial/header.ejs` file before update.** 
 
 ## Configuration
 
