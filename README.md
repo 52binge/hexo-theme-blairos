@@ -6,13 +6,13 @@ Blairos is a fresh looking and responsive theme for [Hexo](http://hexo.io) with 
 
 [Demo](http://52binge.github.io)
 
-[如何使用 Blairos 主题](https://github.com/52binge/blairos/)
+[如何使用 Blairos 主题](https://github.com/52binge/hexo-theme-blairos/)
 
 ## Installation
 
 ### Install
 ```
-$ git clone https://github.com/52binge/blairos.git themes/blairos
+$ git clone https://github.com/52binge/hexo-theme-blairos.git themes/blairos
 ```
 **Blairos requires Hexo 2.7 and above.** 
 
@@ -88,7 +88,8 @@ Blair 图标的制作和增加 | Yes
 文章尾部增加分享功能  papre dev. | No
 增加 tags 显示出属于tag的文章数量上角标 | No
 增加 category 和 tags 和 好友连接，最近发布，最新评论等 (暂时搁置，考虑短时间内不做) | No
-写文档，开源我的 blairos | Half Yes
+首页重新改版，恢复 Read More 等 | Yes
+写文档，开源我的 blairos | Yes
 
 
 ## Features
@@ -131,10 +132,12 @@ Thanks to [Highlight.js](https://highlightjs.org/).
 
 ## Sites
 
-- [Blairos Theme](http://52binge.github.io) - The demo site of Blairos Theme
-- [Blair Chan's Blog](http://52binge.github.io) - The author's blog of Blairos
+- [Blairos Theme][1] - The demo site of Blairos Theme
+- [Blair Chan's Blog][1] - The author's blog of Blairos
 
 If you are using Blairos,you can add your site [here](https://github.com/52binge/blairos/wiki/Sites) ! I'll push the available sites here.
 
 ##License
 [MIT](/LICENSE)
+
+[1]: http://52binge.github.io
