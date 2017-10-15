@@ -31,7 +31,7 @@ git pull origin master
 
 ## Configuration
 
-Modify settings in  `/themes/blairos/_config_bak.yml` to `/themes/blairos/_config.yml`. 
+Modify settings in  `/themes/blairos/_config_bak.yml` to `/themes/blairos/_config.yml`.     
 Modify settings in  `/themes/blairos/layout/_partial/header_bak.ejs` to `/themes/blairos/layout/_partial/header.ejs`. 
 
 ## Configuration
