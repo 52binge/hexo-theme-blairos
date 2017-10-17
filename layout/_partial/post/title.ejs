@@ -6,7 +6,7 @@
 <% } else if (post.title){ %>
   <% if (index){ %>
     <h4 itemprop="name">
-      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= ">  " + post.title %></a>
+      <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
       <!--<a>
       <div = post.date  </div>
       </a>-->
