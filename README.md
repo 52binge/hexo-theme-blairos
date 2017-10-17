@@ -65,8 +65,8 @@ favicon: /favicon.png
 
 ## blairos' improvement minos
 
-blairos | finish
-------- | -------
+blairos | finish | Date
+------- | ------- | -------
 增加了代码块高亮，改变 markdown 的渲染形式 | Yes
 改善 markdown 部分解析style不符合常规 | Yes
 增加Link颜色，改变字体，更易读 | Yes
@@ -88,8 +88,10 @@ Blair 图标的制作和增加 | Yes
 文章尾部增加分享功能  papre dev. | No
 增加 tags 显示出属于tag的文章数量上角标 | No
 增加 category 和 tags 和 好友连接，最近发布，最新评论等 (暂时搁置，考虑短时间内不做) | No
-首页重新改版，恢复 Read More 等 | Yes
-写文档，开源我的 blairos | Yes
+首页重新改版，恢复 Read More 等 | Yes | 2017.10.08
+改版 archives 页面样式 | Yes | 2017.10.17
+默认字体改变与code pre 块样式修改 | Yes | 2017.10.17
+写文档，开源我的 blairos | Yes  | 2017.10.17
 
 
 ## Features
