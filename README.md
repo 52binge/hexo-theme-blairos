@@ -65,32 +65,28 @@ favicon: /favicon.png
 
 ## blairos' improvement minos
 
-blairos | finish
-------- | -------
-增加了代码块高亮，改变 markdown 的渲染形式 | Yes
-改善 markdown 部分解析style不符合常规 | Yes
-增加Link颜色，改变字体，更易读 | Yes
-Index 页面大改版，增加desc，文章简介，将标题style改变，日期改为显示标题淡小字显示 | Yes
-增加 文章尾部 category 和 tag 并且 靠右，然后增加响应图标等 | Yes
-增加 disqus 评论 | Yes
-增加 about 和 tweet | Yes
-增加 授权显示 | Yes
-调整 生成 文章目录 的样式 | Yes
-调整 文章标题 分别于上下的间距 | Yes
-调整 底部和上部空白格距离调整 | Yes
-增加 Tweet 系统 | Yes
-About 和 Tweet 等页面去掉 授权显示 | Yes
-调整 Archives 的字体间距与大小 | Yes
-去掉 index 页面的 标题下划线 | Yes
-Blair 图标的制作和增加 | Yes
-... | Yes
-文章置顶 | No
-文章尾部增加分享功能  papre dev. | No
-增加 tags 显示出属于tag的文章数量上角标 | No
-增加 category 和 tags 和 好友连接，最近发布，最新评论等 (暂时搁置，考虑短时间内不做) | No
-首页重新改版，恢复 Read More 等 | Yes
-写文档，开源我的 blairos | Yes
-
+blairos | Date
+------- | ------- 
+增加了代码块高亮，改变 markdown 的渲染形式 | 2016.07.23
+改善 markdown 部分解析style不符合常规 | 2016.07.23
+增加Link颜色，改变字体，更易读 | 2016.07.23
+Index 页面大改版，增加desc，文章简介，将标题style改变，日期改为显示标题淡小字显示 | 2016.07.23
+增加 文章尾部 category 和 tag 并且 靠右，然后增加响应图标等 | 2016.07.23
+增加 disqus 评论、About、授权显示 | 2016.07.24
+调整 生成 文章目录 的样式 | 2016.07.24
+调整 文章标题 分别于上下的间距 | 2016.07.24
+调整 底部和上部空白格距离调整 | 2016.07.24
+增加 Tweet 系统 & About 和 Tweet 等页面去掉 授权显示 | 2016.07.25
+调整 Archives 的字体间距与大小 | 2016.07.25
+去掉 index 页面的 标题下划线 | 2016.07.25
+Blair 图标的制作和增加 | 2016.07.28
+首页重新改版，恢复 Read More 等 | 2017.10.08
+改版 archives 页面样式 | 2017.10.17
+默认字体改变与code pre 块样式修改 | 2017.10.17
+文章置顶 & 文章尾部增加分享功能  papre dev. | ~
+增加 tags 显示出属于tag的文章数量上角标 | ~
+增加 category 和 tags 和 好友连接，最近发布，最新评论等 | ~
+写文档，开源我的 hexo-theme-blairos | 2017.10.17
 
 ## Features
 
