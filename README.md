@@ -83,9 +83,9 @@ Blair 图标的制作和增加 | 2016.07.28
 首页重新改版，恢复 Read More 等 | 2017.10.08
 改版 archives 页面样式 | 2017.10.17
 默认字体改变与code pre 块样式修改 | 2017.10.17
-文章置顶 & 文章尾部增加分享功能  papre dev. | ~
-增加 tags 显示出属于tag的文章数量上角标 | ~
-增加 category 和 tags 和 好友连接，最近发布，最新评论等 | ~
+文章置顶 & 文章尾部增加分享功能  papre dev. | -
+增加 tags 显示出属于tag的文章数量上角标 | -
+增加 category 和 tags 和 好友连接，最近发布，最新评论等 | -
 写文档，开源我的 hexo-theme-blairos | 2017.10.17
 
 ## Features
