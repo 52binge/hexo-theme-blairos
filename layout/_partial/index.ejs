@@ -21,10 +21,13 @@
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
-        <% if (theme.excerpt_link){ %>
+        <% if (theme.excerpt_link){ %> 
+          <!-- @2018-08-27 blair add
           <p class="article-more-link">
             <a href="<%- url_for(post.path) %>"><%= theme.excerpt_link %></a>
-          </p>
+          </p> 
+          @2018-08-27 blair end
+          -->
         <% } %>
       <% } else { %>
         <%- post.content %>
