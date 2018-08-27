@@ -1,10 +1,11 @@
-.article
+article
   //margin: 20px 0
   margin: 5px 0  // by blair 160725
   //color: #2561c2 // by blair 160805
   //color: #428bca // by blair add 160805
   //margin: block-margin 0 by blair for bak
-  border-bottom: 0.1px solid color-border
+  //border-bottom: 0.1px solid color-border
+  border-bottom: 1px solid #ddd
 
 //by blair add
 .article-myself
@@ -101,11 +102,11 @@
 
 .article-date-index // by blair add at 20160724
   color: #939393
-  font-size: 12px
+  font-size: 10px
 
-.article-detail-date-index // by blair add at 20160724
+.article-detail-date-index // by blair add at 20160724, modify @2018-08-27
   color: #939393
-  font-size: 14px
+  font-size: 10px
 
 .article-date
   float: left
@@ -215,6 +216,7 @@
   color: mix(#428bca, #2561c2, 35%);
   //color: #4cb07b;
   //color: #44a371;
+  //color: #337ab7;
   text-decoration: none;
 
 .desc-index
@@ -237,8 +239,9 @@
   //border-bottom: 2px LightGrey solid;
   width: 98%;
   //line-height: 150%;
-  color: #444;
-  color: #4cb07b;
+  //color: #444;
+  //color: #4cb07b;
+  color: #337ab7;
   //add by blair 0724
 a.article-title
   @extend $link
@@ -286,7 +289,8 @@ a.article-title
     line-height: 1.4em
     margin: line-height-title 0
     // add by blair 0724
-    color: mix(#2561c2, #4cb07b, 20%);
+    //color: mix(#2561c2, #4cb07b, 20%);
+    color: mix(#0085a1, #555, 0%);
     //color: #009a61;
     //color: #574c4c;
     //color: #4cb07b;
@@ -532,7 +536,7 @@ a.article-title
   top: 110px
   font-size: 1.0em
   width: 300px
-  margin-left: 400px
+  margin-left: 420px
   padding-left: 20px
 
   //left: 46.5% // by blair add 20170109
@@ -555,11 +559,12 @@ a.article-title
       //color: black
       //color: #666 // by blair add 160728
       // by blair 160729
-      color: #008000;
+      color: #0085a1; 
       text-decoration: none;
       font-size: 16px;
-      line-height: 1.5;
+      line-height: 1.9;
       // by blair 160729
       text-decoration: none
-  @media mq-large
+  //@media mq-large by blair add 2018-08-27
+  @media mq-normal
     display: block
