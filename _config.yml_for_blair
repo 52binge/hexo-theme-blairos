@@ -1,0 +1,26 @@
+# Header
+logo_text: # Add text logo instead of logo image
+menu:
+#  English: english
+#  Science: datascience
+  Bot: chatbot
+#  TF: tensorflow
+  Deep Learning: deeplearning
+  Archives: archives
+  Categories: categories
+  #Framework: framework
+  #Tweet: tweet
+  About: about
+
+# Content
+excerpt_link: Read More
+toc: true
+fancybox: true
+
+#comments
+disqus_shortname: blairos-sn
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+
