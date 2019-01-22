@@ -1,14 +1,12 @@
 # Header
-logo_text: # Add text logo instead of logo image
+# logo_text: # Add text logo instead of logo image
+
 menu:
-#  English: english
-#  Science: datascience
   Bot: chatbot
 #  TF: tensorflow
   Deep Learning: deeplearning
   Archives: archives
   Categories: categories
-  #Framework: framework
   #Tweet: tweet
   About: about
 
