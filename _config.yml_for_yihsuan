@@ -1,0 +1,21 @@
+# Header
+logo_text: # Add text logo instead of logo image
+menu:
+  English: english
+  Archives: archives
+  Categories: categories
+#  Tweet: tweet
+  About: about
+
+# Content
+excerpt_link: Read More
+toc: true
+fancybox: true
+
+#comments
+disqus_shortname: blairos-sn
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+
