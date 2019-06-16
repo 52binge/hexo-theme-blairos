@@ -68,6 +68,23 @@ body
   background-position: center
   background-repeat: no-repeat
   border-radius: 3.4375em
+  -webkit-transition: -webkit-transform 2s ease-out; // by blair add 2019-06-16
+  -moz-transition: -moz-transform 2s ease-out;       // by blair add 2019-06-16
+  -o-transition: -o-transform 2s ease-out;           // by blair add 2019-06-16
+  -ms-transition: -ms-transform 2s ease-out;         // by blair add 2019-06-16
+  transition: transform 2s ease-out;
+
+// by blair add 2019-06-16 start
+.logo:hover {
+    //animation: run 2s linear 0s forwards;
+    //-webkit-animation: run 2s linear 0s forwards;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+// by blair add 2019-06-16 end
 
 .logo-text
   width: auto
