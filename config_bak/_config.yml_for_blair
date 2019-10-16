@@ -2,9 +2,10 @@
 # logo_text: # Add text logo instead of logo image
 
 menu:
-  Bot: chatbot
-#  TF: tensorflow
-  Deep Learning: deeplearning
+  AI: ai1
+  TF/Keras: tensorflow
+#  English: english
+  #DeepLearning: deeplearning
   Archives: archives
   Categories: categories
   #Tweet: tweet
@@ -14,11 +15,15 @@ menu:
 excerpt_link: Read More
 toc: true
 fancybox: true
+#fancybox: false
+
+justified-gallery: true
 
 #comments
 disqus_shortname: blairos-sn
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+#favicon: /favicon.png
+favicon: /css/images/favicon.ico
 
