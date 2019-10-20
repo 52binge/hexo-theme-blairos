@@ -63,6 +63,16 @@ favicon: /favicon.png
 - **google_analytics** - Google Analytics ID.
 - **favicon** - Favicon path.
 
+### toc
+
+layout/_partial/article.ejs
+
+如何需要显示 toc number, 则修改 article.ejs, 去掉 {list_number: false}
+
+```
+toc(post.content, {list_number: false})
+```
+
 ## blairos' improvement minos
 
 blairos | Date
